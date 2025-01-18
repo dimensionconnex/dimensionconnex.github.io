@@ -26,7 +26,7 @@ apple_touch_icon: /img/web-logo.png
 
 # 默认页面设置(除index之外)
 page:
-  banner_img: /img/银河系.jpg
+  banner_img: /img/web-logo.png
   banner_img_height: 50
   banner_mask_alpha: 0.3
 
@@ -389,4 +389,4 @@ about:
   icons:
     - { class: 'iconfont icon-telegram-fill', link: 'https://t.me/dimensionconnex', tip: 'telegram' }
 
-custom_head: '<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-RDZ3DFDPQ8"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "G-RDZ3DFDPQ8"); </script>'
+custom_head: '<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-W7SRC360PT"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "G-W7SRC360PT"); </script>'
