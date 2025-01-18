@@ -101,4 +101,32 @@ custom_head: '<!-- Google tag (gtag.js) --> <script async src="https://www.googl
 重启服务后刷新生效
 ![google代码就有了](/img/web-blog-include-13.png)
 
+### 回到Google Analysis 页面 
+![点击测试](/img/web-blog-include-14.png)
+![打开首页 能看到类似的图就可以了](/img/web-blog-include-15.png)
 
+## 提交网站地图
+打开[Google Search Console](https://search.google.com/u/1/search-console) (简称GSC)
+由于我们已经配置过Google Analysis，可以使用相同的账号信息，无需另行注册Search Console。在验证网站所有权时，建议选择“网址前缀”模式。虽然“网域”模式能够覆盖更多情景，但是只能通过DNS进行验证，对于Github托管的博客不太友好。
+
+![网址前缀](/img/web-blog-include-16.png)
+
+![选择前往资源页面](/img/web-blog-include-17.png)
+
+![输入sitemap.xml](/img/web-blog-include-18.png)
+
+### 显示无法抓取
+这个问题是 GSC 错误地将“待处理”显示为“无法获取”  ，请耐心等候一段时间，少则3天内完成，多则数周。相关连接： https://support.google.com/webmasters/thread/201833635/%E7%AB%99%E7%82%B9%E5%9C%B0%E5%9B%BE%E6%98%BE%E7%A4%BA%E6%97%A0%E6%B3%95%E6%8A%93%E5%8F%96?hl=zh-hans
+
+
+# Bing收录
+打开[Bing webmasters](https://www.bing.com/webmasters/about)，使用 Google 账号登录。
+
+![选择从GSC登入](/img/web-blog-include-19.png)
+
+![导就完事了](/img/web-blog-include-20.png)
+
+
+
+# 测试
+打开Google/Bing/Baidu， 搜索框输入： site:dimensionconnex.github.io 就能判断了。
