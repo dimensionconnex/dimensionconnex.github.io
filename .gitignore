@@ -1,0 +1,35 @@
+# 忽略 node_modules 目录
+node_modules/
+
+# 忽略日志文件
+*.log
+
+# 忽略临时文件和文件夹
+**/tmp
+**/temp
+**/build
+**/dist
+
+# 忽略编辑器配置文件
+.vscode/
+*.swp
+*.swo
+
+# 构建工具生成的文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 忽略自动生成的文档
+docs/api/
+docs/build/
+
+# 忽略存储敏感信息的文件
+.env
+.senv
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+public/
+db.json
