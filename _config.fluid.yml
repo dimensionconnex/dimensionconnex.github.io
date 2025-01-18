@@ -101,6 +101,7 @@ navbar:
     - { key: 'home', link: '/', icon: 'iconfont icon-home-fill' }
     - { key: 'archive', link: '/archives/', icon: 'iconfont icon-archive-fill' }
     - { key: 'category', link: '/categories/', icon: 'iconfont icon-category-fill' }
+    - { key: 'tag', link: '/tags/', icon: 'iconfont icon-tags-fill' }
     - { key: 'about', link: '/about/', icon: 'iconfont icon-user-fill' }
 
 
@@ -364,6 +365,14 @@ archive:
 # Categories Page
 #---------------------------
 category:
+  enable: true
+  banner_img: /img/web-banner.jpg
+
+#---------------------------
+# 标签归档页
+# Tags Page
+#---------------------------
+tag:
   enable: true
   banner_img: /img/web-banner.jpg
 

@@ -1,8 +1,19 @@
 ---
-title: 最全镜像网站2025|持续更新
+title: 最全镜像站合集|2025持续更新
 index_img: /img/web-黑色背景-镜像站主图-加水印.png
 date: 2025-01-17 21:00:00
-
+categories: 
+    - 镜像网站
+tags:
+    - Github
+    - NPM
+    - Google
+    - DockerHub
+    - Pip
+    - Python
+    - Node
+    - Chatgpt
+    - Ubuntu
 ---
 <!-- update_date -->
 > 更新时间：2025-01-17 21:00:00
