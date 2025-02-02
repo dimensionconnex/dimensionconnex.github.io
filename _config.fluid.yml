@@ -122,7 +122,7 @@ footer:
     # 统计数据来源，如果使用 leancloud 需要设置 `web_analytics: leancloud` 中的参数；如果使用 busuanzi 可能会有请求失败的情况
     # Data source. If use leancloud, you need to set the parameter in `web_analytics: leancloud`
     # Options: busuanzi | leancloud
-    source: "leancloud "  # 可选 leancloud | busuanzi  根据自己需求选择
+    source: "leancloud"  # 可选 leancloud | busuanzi  根据自己需求选择
     pv_format: "总访问量 {} 次"  # 显示的文本，{}是数字的占位符（必须包含)，下同
     uv_format: "总访客数 {} 人"
 
