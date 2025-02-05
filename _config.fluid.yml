@@ -61,7 +61,7 @@ web_analytics:  # 网页访问统计
     app_key: WiwvBKoLsHIoKo5TDP4haONJ
     # REST API 服务器地址，国际版不填
     # Only the Chinese mainland users need to set
-    server_url: https://lauarbhw.api.lncldglobal.com
+    # server_url: https://lauarbhw.api.lncldglobal.com
 
 # 对页面中的图片进行懒加载处理，可见范围外的图片不会加载
 # Lazy loading of images on the page
@@ -335,13 +335,11 @@ post:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo
-    # type: valine
-
-
+    type: valine
 #---------------------------
 # 评论插件
 # Comment plugins
@@ -390,3 +388,14 @@ about:
     - { class: 'iconfont icon-telegram-fill', link: 'https://t.me/dimensionconnex', tip: 'telegram' }
 
 custom_head: '<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-W7SRC360PT"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "G-W7SRC360PT"); </script>'
+valine:
+  appid: lauArbHwmeoJhCbyeDqkyRw6-MdYXbMMI
+  appkey: WiwvBKoLsHIoKo5TDP4haONJ
+  placeholder: 吐槽 # 评论框占位提示符
+  path: window.location.pathname # 当前文章页路径，用于区分不同的文章页，以保证正确读取该文章页下的评论列表
+  avatar: retro # Gravatar 头像展示方式
+  meta: ['nick', 'mail', 'link']  # 评论者相关属性
+  pageSize: 10 # 评论列表分页，每页条数
+  lang: zh-CN # zh-CN | zh-TW | en | ja
+  highlight: false # 代码高亮
+  recordIP: false # 是否记录评论者IP
