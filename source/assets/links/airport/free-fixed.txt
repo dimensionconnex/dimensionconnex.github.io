@@ -1,1 +1,0 @@
-vmess://88888888-8888-8888-8888-888888888888@web.51.la:443?security=auto&sni=web.51.la&type=tcp&tls=tls#dimensionconnex.github.io%20%E5%A2%A8%E8%A5%BF%E5%93%A5%20IRM90LIX
